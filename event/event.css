@@ -1,0 +1,75 @@
+*{margin: 0; padding:0;}
+body{
+	background-color: #f5fdf5;
+}
+.header_full{
+	transform:skewY(0deg);
+	padding-bottom: 30px;
+}
+.header_full .header{
+	transform: skew(0deg);
+}
+.header_full .header .top {
+	margin-bottom:30px;
+}
+.header_full .header .logo{
+	width:250px;
+	display:inline;
+}
+.header_full .header  nav{
+	float:right;
+	width:585px;
+	margin-top:25px;
+}
+.header_full .header nav ul li{
+	display:inline;
+}
+.header_full .header nav ul li a{
+	padding: 0px 14px;
+	color:#fff;
+	text-transform:uppercase;
+	font-size:14px;
+	
+	transition: 0.6 all ease;
+}
+.header_full .header nav ul li a:hover{
+	color:#99cd58;
+}
+.header_full .header nav ul li a:focus{
+	color:#58a6cd;
+}
+.e_event_full{
+	margin-bottom: 30px;
+}
+.e_event_full .e_event .eevent{
+	padding: 20px;
+	margin-bottom: 20px;
+}
+
+/* event is styleing start */
+/* event.html start style*/
+.event1_full{
+	margin-bottom: 30px;
+}
+.event1_full .event1 .e_top{
+	margin-bottom: 20px;
+	text-align: center;
+}
+.event1_full .event1 .e_top h1{
+	font-size: 40px;
+	color:#79a163; ;
+	margin-bottom: 20px;
+}
+.event1_full .event1 .e_top span{
+	font-size: 28px;
+	color:#7c7c7c;
+}
+.event1_full .event1 p{
+	margin-bottom: 20px;
+	font-size: 15px;
+	color: #55693c;
+}
+.event1_full .event1 .line{
+	margin-bottom: 20px;
+
+}

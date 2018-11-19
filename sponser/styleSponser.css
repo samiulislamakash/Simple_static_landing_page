@@ -1,0 +1,131 @@
+*{margin: 0; padding:0;}
+body{
+	background-color: #f5fdf5;
+}
+.header_full{
+	transform:skewY(0deg);
+	padding-bottom: 30px;
+}
+.header_full .header{
+	transform: skew(0deg);
+}
+.header_full .header .top {
+	margin-bottom:30px;
+}
+.header_full .header .logo{
+	width:250px;
+	display:inline;
+}
+.header_full .header  nav{
+	float:right;
+	width:585px;
+	margin-top:25px;
+}
+.header_full .header nav ul li{
+	display:inline;
+}
+.header_full .header nav ul li a{
+	padding: 0px 14px;
+	color:#fff;
+	text-transform:uppercase;
+	font-size:14px;
+	
+	transition: 0.6 all ease;
+}
+.header_full .header nav ul li a:hover{
+	color:#99cd58;
+}
+.header_full .header nav ul li a:focus{
+	color:#58a6cd;
+}
+.e_event_full{
+	margin-bottom: 30px;
+}
+.e_event_full .e_event .eevent{
+	padding: 20px;
+	margin-bottom: 20px;
+}
+/* This is a slimple header and footer style*/
+/*sponsor us style is start*/
+.sponsers_full{
+	margin-bottom: 30px;
+}
+.sponsers_full .sponser h1{
+	font-size: 45px;
+	color:#7c7c7c ;
+	margin-bottom: 20px;
+}
+.sponsers_full .sponser p{
+	font-size: 20px;
+	color:#7c7c7c;
+	margin-bottom: 40px;
+}
+.sponsers_full .sponser form table {
+	width: 100%;
+	height: auto;
+}
+.sponsers_full .sponser form table tr{
+	
+}
+.sponsers_full .sponser form table tr .L_lab{
+	width: 30% ;
+	margin-top: 13px;
+	font-size: 22px;
+	display: inline;
+	margin-bottom: 40px;
+}
+.sponsers_full .sponser form table tr .I_inp{
+	width:60% ;
+}
+.sponsers_full .sponser form table tr .I_inp textarea{
+	width:98.1% ;
+	height:150px;
+	display: inline;
+	margin-bottom: 40px;
+	border: 1px solid #ddd;
+}
+.sponsers_full .sponser form table tr .I_inp textarea:focus{
+	outline:none;
+	border: 1px solid #90d23d;
+}
+.sponsers_full .sponser form table tr td input{
+	width: 96%;
+	height: 40px;
+	font-size: 18px;
+	padding-left: 1%;
+	padding-right: 1%;
+	display:inline;
+	border: 1px solid #ddd;
+	margin-bottom: 40px;
+}
+.sponsers_full .sponser form table tr td input:focus{
+	outline:none;
+	border:1px solid #90d23d;
+}
+.sponsers_full .sponser form table tr td .cancel{
+	background-color: #ddd;
+	font-size:16px;
+	padding:16px 30px;
+	transition:0.6s all ease;
+}
+.sponsers_full .sponser form table tr .L_lab .cancel:hover{
+	background-color:#95a994;
+	color:#fff;
+}
+.sponsers_full .sponser form table tr .I_inp .subm{
+	width: 45%;
+	margin-right: 7.8%;
+	cursor: pointer;
+	border: 0px;
+}
+.sponsers_full .sponser form table tr .I_inp .subm:hover{ 
+	background-color:#95a994;
+	color:#fff;
+}
+.sponsers_full .sponser form table tr .I_inp .subm:focus{
+	outline: none;
+	border: 0px;
+} 
+.sponsers_full .sponser form table tr .I_inp .subm:last-child{
+	margin-right: 0%;
+}
